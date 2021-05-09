@@ -11,4 +11,9 @@ call plug#begin('~./vim/plugins')
 
 " Make sure you use single quotes
 
+Plug 'morhetz/gruvbox'
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
+
+colorscheme gruvbox
