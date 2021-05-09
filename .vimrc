@@ -1,3 +1,5 @@
+source ~/dotfiles/includes/plugins.vim
+
 " idk what this does but it's recommended
 set nocompatible
 
@@ -45,7 +47,7 @@ endif
 set cmdheight=2
 
 " Show line numbers
-set number
+set rnu
 
 " Quickly time out on keycodes, but never time out on mappings
 set notimeout ttimeout ttimeoutlen=200
@@ -57,5 +59,8 @@ set pastetoggle=<F11>
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+
+" Use system cliboard
+set clipboard=unnamedplus
 
 nnoremap <C-L> :nohl<CR><C-L>
