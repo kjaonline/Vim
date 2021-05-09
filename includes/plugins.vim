@@ -7,7 +7,7 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 endif
 
 " Begin Plugins
-call plug#begin('~./vim/plugins')
+call plug#begin('~/.vim/plugins')
 
 " Make sure you use single quotes
 
@@ -16,4 +16,3 @@ Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
-colorscheme gruvbox
