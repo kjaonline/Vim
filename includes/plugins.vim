@@ -16,3 +16,6 @@ Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
+" setting theme
+colorscheme gruvbox
+set bg=dark
