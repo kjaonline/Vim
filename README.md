@@ -9,7 +9,7 @@ I am currently learning vim and use vim plugin in vscode. I would love to eventu
 - ~Learn Vim motions~ (done)
 - ~Use vim keybinds in vscode~ (done)
 - Create .vimrc (in progress)
-- Learn fzf and moving through different files
+- Learn fzf, Nerd Tree and moving through different files
 - Use vim terminal full time
 - Throw mouse in trash
 
