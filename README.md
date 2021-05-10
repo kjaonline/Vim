@@ -1,5 +1,6 @@
 # Initial Setup
 Install vim or neovim then run the command below.
+
 `ln -s -f ~/dotfiles/.vimrc ~/.vimrc && sudo ln -s ~/dotfiles/includes/* ~/.vim && mkdir ~/.vim/undodir`
 
 # Goals
