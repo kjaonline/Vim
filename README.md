@@ -1,5 +1,6 @@
 # Vimrc file 
-ln -s -f ~/dotfiles/.vimrc ~/.vimrc
-sudo ln -s ~/dotfiles/includes/* ~/.vim
+`ln -s -f ~/dotfiles/.vimrc ~/.vimrc`
 
-mkdir ~/.vim/undodir
+`sudo ln -s ~/dotfiles/includes/* ~/.vim`
+
+`touch ~/.vim/undodir`
