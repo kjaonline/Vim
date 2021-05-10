@@ -13,6 +13,10 @@ call plug#begin('~/.vim/plugins')
 
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-fugitive'
+Plug 'junegunn/fzf' ,{ 'do' : { -> fzf#install()}}
+Plug 'junegunn/fzf.vim'
+Plug 'vim-utils/vim-man'
+Plug 'mbbill/undotree'
 
 call plug#end()
 
