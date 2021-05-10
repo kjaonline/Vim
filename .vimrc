@@ -1,4 +1,5 @@
 source ~/dotfiles/includes/plugins.vim
+source ~/dotfiles/includes/remaps.vim
 
 " idk what this does but it's recommended
 set nocompatible
@@ -35,6 +36,12 @@ set nostartofline
 set ruler
 set laststatus=2
 set confirm
+set colorcolumn=80
+set nowrap
+set smartcase
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
 
 " Disable annoying ding
 set visualbell
@@ -47,7 +54,7 @@ endif
 set cmdheight=2
 
 " Show line numbers
-set rnu
+set nu rnu
 
 " Quickly time out on keycodes, but never time out on mappings
 set notimeout ttimeout ttimeoutlen=200
