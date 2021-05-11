@@ -2,14 +2,7 @@
 Install vim or neovim then run the command below.
 
 ```
-cd ~ 
-&& mkdir dotfiles 
-&& mkdir .vim 
-&& ln -s -f ~/dotfiles/.vimrc ~/.vimrc 
-&& sudo ln -s ~/dotfiles/includes/* ~/.vim 
-&& mkdir ~/.vim/undodir
-cd ~/dotfiles
-git clone https://github.com/kjaonline/Vim.git
+cd ~ && mkdir dotfiles && mkdir .vim && ln -s -f ~/dotfiles/.vimrc ~/.vimrc && sudo ln -s ~/dotfiles/includes/* ~/.vim && mkdir ~/.vim/undodir && cd ~/dotfiles && git clone https://github.com/kjaonline/Vim.git .
 ```
 
 # Goals
